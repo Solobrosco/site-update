@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex-col justify-center items-center">
       <NavBar />
       <div className="bg-blue-900 text-white">Splash Page</div>
       <div className="bg-blue-800 text-white">My Room</div>
