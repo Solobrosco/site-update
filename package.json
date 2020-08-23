@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Solobrosco.github.io/site-update",
   "name": "personalweb",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +21,9 @@
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css"
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +42,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^3.1.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.7.3"
   }
