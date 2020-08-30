@@ -15,28 +15,33 @@ interface SplashPageProps {
 
 const SplashPage = (props: SplashPageProps) => {
     return(
-        <Parallax pages={3} scrolling={true}>
+        <Parallax pages={2} scrolling={true}>
             <ParallaxLayer offset={0} speed={1}>
                 <img src={Layer0} alt='background'></img>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={1}>
-                <img src={Layer1} alt='wut'></img>
+                <img src={Layer1} alt='stars'></img>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={2}>
-                <img src={Layer2} alt='the'></img>
+                <img src={Layer2} alt='moon'></img>
+            </ParallaxLayer>
+            <ParallaxLayer offset={0.3} speed={2}>
+                <div className=" sm:text-3xl md:text-6xl text-bold text-center text-white justify-center items-center h-10">
+                    <p className='hover:text-gray-200'>
+                        {props.text}
+                    </p>
+                </div>
+                {/* <div className='text-center justify-center items-center mt-8'>
+                    <button className="bg-transparent text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
+                        Button
+                    </button>
+                </div> */}
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={3}>
-                <img src={Layer3} alt='wut'></img>
+                <img src={Layer3} alt='mountain'></img>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={4}>
-                <img src={Layer4} alt='is'></img>
-            </ParallaxLayer>
-            <ParallaxLayer offset={0.3} speed={3}>
-                <div className="text-bold text-center text-white justify-center text-6xl items-center h-10">
-                    <h1>
-                        {props.text}
-                    </h1>
-                </div>
+                <img src={Layer4} alt='foreground'></img>
             </ParallaxLayer>
         </Parallax>
     );
