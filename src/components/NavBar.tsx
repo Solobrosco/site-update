@@ -6,8 +6,8 @@ const NavBar = () => {
     return(
         <header className='bg-gray-900'>
             <div className="flex items-center justify-between py-4 px-10">
-                <div className='text-lg h-5 font-bold text-white'>
-                    Nikko A. Solon
+                <div className='text-md h-5 font-bold text-white'>
+                    <p>Nikko A. Solon</p>
                 </div>
                 <div>
                     <button type='button' className='block text-white' onClick={() => setOpen(!open)}>
