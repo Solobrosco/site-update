@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Front-End Developer",
+        "start": "August 2019",
+        "end": "Present",
+        "company": "New-Edge-Developers",
+        "description": "Programs the front end environment on multiple platforms. Designs and creates the front end environment for The Basic Needs app. Reports weekly to the Lead Backend Developer and Content Manager. Collaborates with team members to further simplify interfaces."
+    },
+    {
+        "title": "Firmware Engineer",
+        "start": "October 2018",
+        "end": "August 2019",
+        "company": "Merced Energy",
+        "description": "Document all projects relating to the development of the BMS. Ensures ALL documentation is current and easily replicated for all relevant parties. Programming the ATTiny85 chip with Digispark. Developing and designing smart batteries that are easily scalable and able to manage themselves."
+    },
+    {
+        "title": "Digital Media Assistant",
+        "start": "December 2017",
+        "end": "October 2018",
+        "company": "The Foster Family of Engineering Service Learning",
+        "description": "Designed marketing materials for various departments and community. Managed Eventbright website events and all social media accounts of department. Helped manage Skill Session Workshops. Composed Annual Report and managed Professional Photoshoot for the department."
+    },
+    {
+        "title": "Intellectual Property Officer",
+        "start": "August 2017",
+        "end": "December 2017",
+        "company": "Merced Vernal Pools & Grasslands Reserve",
+        "description": "Maintained all the team’s project documentation and reported to position clients. Ensures ALL documentation is current and accessible for all relevant parties. Composed the Semester Proposal and Project Reports."
+    },
+    {
+        "title": "Graphic Designer",
+        "start": "May 2017",
+        "end": "December 2017",
+        "company": "UC Merced Recreation and Athletics Department",
+        "description": "Created visual appealing graphics to promote and market events held by either the Recreation and Athletics department. Collaborate with the Recreation & Athletics professional and student staff. Created Game day posters, Outdoor Experience Program flyers, and Digital Signage for events."
+    },
+    {
+        "title": "Full-Service Shopper",
+        "start": "July 2016",
+        "end": "August 2018",
+        "company": "Instacart",
+        "description": "Fully services Instacart customers by shopping and delivering their groceries accurately, fresh, and on time."
+    },
+    {
+        "title": "Technical Director",
+        "start": "August 2015",
+        "end": "May 2016",
+        "company": "South City Source",
+        "description": "Produces and records school announcements live while also managing the broadcasting team. Also takes in charge of other non-school related projects. Skillfully operates a video switcher and creates graphics and video segments."
+    }
+]

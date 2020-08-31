@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Python",
+        "rating": 5
+    },
+    {
+        "name": "HTML",
+        "rating": 5 
+    },
+    {
+        "name": "CSS",
+        "rating": 5 
+    },
+    {
+        "name": "C++",
+        "rating": 4
+    },
+    {
+        "name": "Java",
+        "rating": 3 
+    },
+    {
+        "name": "JQUERY",
+        "rating": 0 
+    },
+    {
+        "name": "SQLITE",
+        "rating": 0 
+    },
+    {
+        "name": "Angular",
+        "rating": 0 
+    },
+    {
+        "name": "React",
+        "rating": 0 
+    },
+    {
+        "name": "Typescript",
+        "rating": 0 
+    },
+    {
+        "name": "Swift",
+        "rating": 0 
+    },
+    {
+        "name": "JavaScript",
+        "rating": 0 
+    },
+    {
+        "name": "Matlab",
+        "rating": 0 
+    },
+    {
+        "name": "R",
+        "rating": 0 
+    },
+    {
+        "name": "Photoshop",
+        "rating": 0 
+    },
+    {
+        "name": "Illustrator",
+        "rating": 0 
+    },
+    {
+        "name": "After Effects",
+        "rating": 0 
+    },
+    {
+        "name": "Indesign",
+        "rating": 0 
+    },
+    {
+        "name": "Excel",
+        "rating": 0 
+    },
+    {
+        "name": "Arduino Uno",
+        "rating": 0 
+    },
+    {
+        "name": "Raspberry Pi",
+        "rating": 0 
+    },
+    {
+        "name": "Soldering",
+        "rating": 0 
+    },
+    {
+        "name": "DSLR Camera",
+        "rating": 0 
+    },
+    {
+        "name": "LaTeX",
+        "rating": 0 
+    },
+    {
+        "name": "Pen Testing",
+        "rating": 0 
+    },
+    {
+        "name": "Computer Vision",
+        "rating": 0 
+    }
+]
