@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 // import SplashPage from './components/SplashPage';
 import MyRoom from './components/MyRoom';
 import About from './components/About';
+import SplashPage from './components/SimpleSplashPage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <NavBar />
       {/* Need to fix this better */}
       {/* <SplashPage text={'Aspire to inspire before we expire.'}/> */}
-      <MyRoom />
+      <SplashPage />
+      {/* <MyRoom /> */}
       <About />
       <div className="bg-blue-600 text-white">Pictures</div>
       <div className="bg-blue-500 text-white">Education/Experience</div>
