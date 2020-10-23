@@ -7,6 +7,9 @@ import MyRoom from './components/MyRoom';
 import About from './components/About';
 import SplashPage from './components/SimpleSplashPage';
 
+import Gallery from './components/Gallery';
+import Education from './components/Education';
+
 function App() {
   return (
     <div className="justify-center items-center">
@@ -16,11 +19,11 @@ function App() {
       <SplashPage />
       {/* <MyRoom /> */}
       <About />
-      <div className="bg-blue-600 text-white">Pictures</div>
-      <div className="bg-blue-500 text-white">Education/Experience</div>
+      <Gallery />
+      <Education />
+      <div className="bg-blue-500 text-white">Experience</div>
       <div className="bg-blue-400 text-white">Stats(optional)</div>
       <div className="bg-blue-300 text-white">Footer Created with React typescript, tailwind and spring.</div>
-      <div className="whitespace-pre-line bg-blue-200 text-white h-10">test</div>
     </div>
   );
 }
