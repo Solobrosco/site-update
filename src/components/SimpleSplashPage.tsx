@@ -16,7 +16,7 @@ const SimpleSplashPage = () =>{
     let quote = pickRandomQuote();
     return(
         <div className="bg-blue-900 text-white text-center items-center justify-center relative" >
-            <h1 className=''>{quote.quote}<br></br>-{quote.author}</h1>
+            <h1 className=''>"{quote.quote}"<br></br>-{quote.author}</h1>
             {/* <img className='object-contain ' src={Snelling} alt='snelling'/> */}
         </div>
     );
