@@ -19,11 +19,11 @@ function App() {
       <SplashPage />
       {/* <MyRoom /> */}
       <About />
-      <Gallery />
+      {/* <Gallery /> */}
       <Education />
-      <div className="bg-blue-500 text-white">Experience</div>
+      {/* <div className="bg-blue-500 text-white">Experience</div>
       <div className="bg-blue-400 text-white">Stats(optional)</div>
-      <div className="bg-blue-300 text-white">Footer Created with React typescript, tailwind and spring.</div>
+      <div className="bg-blue-300 text-white">Footer Created with React typescript, tailwind and spring.</div> */}
     </div>
   );
 }
