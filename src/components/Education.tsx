@@ -5,12 +5,12 @@ import education from '../data/education.json';
 const Education = () => {
     return(
         <div className="bg-blue-500 text-white text-center items-center justify-center">
-            <div className='text-xl py-3 font-bold'>Education</div>
-            {education.school}
+            <div id='Experience' className='text-xl py-3 font-bold'>Education</div>
+                {education.school}
             <br></br>
-            {education.major}
+                {education.major}
             <br></br>
-            {education.time}
+                {education.time}
         </div>
     );
 }
