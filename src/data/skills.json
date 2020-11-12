@@ -1,106 +1,132 @@
 [
     {
         "name": "Python",
+        "type": "",
         "rating": 5
     },
     {
         "name": "HTML",
+        "type": "",
         "rating": 5 
     },
     {
         "name": "CSS",
+        "type": "",
         "rating": 5 
     },
     {
         "name": "C++",
+        "type": "",
         "rating": 4
     },
     {
         "name": "Java",
+        "type": "",
         "rating": 3 
     },
     {
         "name": "JQUERY",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "SQLITE",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Angular",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "React",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Typescript",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Swift",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "JavaScript",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Matlab",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "R",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Photoshop",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Illustrator",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "After Effects",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Indesign",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Excel",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Arduino Uno",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Raspberry Pi",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Soldering",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "DSLR Camera",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "LaTeX",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Pen Testing",
+        "type": "",
         "rating": 0 
     },
     {
         "name": "Computer Vision",
+        "type": "",
         "rating": 0 
     }
 ]
