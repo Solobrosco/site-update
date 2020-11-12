@@ -8,7 +8,7 @@ function pickRandomQuote () {
     let keys = Object.keys(quotes);
     let randIndex = keys[Math.floor(Math.random() * keys.length)];
     let item = quotes[keys[randIndex]];
-    console.log(item );
+    // console.log(item);
     return item;
 }
 
