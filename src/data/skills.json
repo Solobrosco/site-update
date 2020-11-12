@@ -1,132 +1,132 @@
 [
     {
         "name": "Python",
-        "type": "",
+        "type": "tech",
         "rating": 5
     },
     {
         "name": "HTML",
-        "type": "",
+        "type": "tech",
         "rating": 5 
     },
     {
         "name": "CSS",
-        "type": "",
+        "type": "tech",
         "rating": 5 
     },
     {
         "name": "C++",
-        "type": "",
+        "type": "tech",
         "rating": 4
     },
     {
         "name": "Java",
-        "type": "",
+        "type": "tech",
         "rating": 3 
     },
     {
         "name": "JQUERY",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3
     },
     {
         "name": "SQLITE",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3 
     },
     {
         "name": "Angular",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3 
     },
     {
         "name": "React",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 4 
     },
     {
         "name": "Typescript",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3 
     },
     {
         "name": "Swift",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 2 
     },
     {
-        "name": "JavaScript",
-        "type": "",
-        "rating": 0 
+        "name": "JavaScript (ES6)",
+        "type": "tech",
+        "rating": 4 
     },
     {
         "name": "Matlab",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3 
     },
     {
         "name": "R",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3 
     },
     {
         "name": "Photoshop",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 5 
     },
     {
         "name": "Illustrator",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 5
     },
     {
         "name": "After Effects",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 5 
     },
     {
         "name": "Indesign",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 5 
     },
     {
         "name": "Excel",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 4 
     },
     {
         "name": "Arduino Uno",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 4 
     },
     {
         "name": "Raspberry Pi",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 4 
     },
     {
         "name": "Soldering",
-        "type": "",
-        "rating": 0 
+        "type": "skill",
+        "rating": 5 
     },
     {
         "name": "DSLR Camera",
-        "type": "",
-        "rating": 0 
+        "type": "skill",
+        "rating": 5 
     },
     {
         "name": "LaTeX",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 2 
     },
     {
         "name": "Pen Testing",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 3 
     },
     {
         "name": "Computer Vision",
-        "type": "",
-        "rating": 0 
+        "type": "tech",
+        "rating": 4 
     }
 ]
