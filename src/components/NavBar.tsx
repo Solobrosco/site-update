@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
+import states from '../data/state.json';
 // Add clock and data to nav bar
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);
-
     return(
         <header className='bg-gray-900'>
             <div className="flex items-center justify-between py-4 px-10">
@@ -21,10 +21,10 @@ const NavBar = () => {
             {open && (
                 <div className='px-8 pb-4'>
                     <a href='#Home' className='hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Home</a>
-                    <a href='#About' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>About me</a>
-                    <a href='#Gallery' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Gallery</a>
-                    <a href='#Experience' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Experience</a>
-                    <a href='#Stats' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Stats</a>
+                    {states.about && (<a href='#About' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>About me</a>)}
+                    {states.gallery && (<a href='#Gallery' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Gallery</a>)}
+                    {states.experience && (<a href='#Experience' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Experience</a>)}
+                    {states.stats && (<a href='#Stats' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Stats</a>)}
                 </div>
             )}
         </header>
