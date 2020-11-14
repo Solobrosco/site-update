@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SkillComponent from './Skills';
+import SkillComp from './Skills';
 
 import skills from '../data/skills.json';
 
@@ -11,7 +11,7 @@ const About = () => {
                 Check me out!
             </h2>
             <p>
-                Here is a list of all the skills and technologies I have been working with.
+                Here is a list of technologies and skills I have been working with and obtained.
             </p>
             <h3 className='text-xl py-3 font-bold'>
                 Technologies
@@ -19,7 +19,7 @@ const About = () => {
             <h3 className='text-xl py-3 font-bold'>
                 Skills
             </h3>
-            {skills.map((skillitem: any) => <SkillComponent name={skillitem.name as string} rank={skillitem.rating as string}/>)}
+            {skills.map((skillitem: any) => <SkillComp name={skillitem.name as string} rank={skillitem.rating as string}/>)}
         </div>
     );
 }
