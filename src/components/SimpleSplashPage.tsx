@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Snelling from '../static/Snelling.png';
+// import Snelling from '../static/Snelling.png';
 
 import quotes from '../data/quotes.json';
 
