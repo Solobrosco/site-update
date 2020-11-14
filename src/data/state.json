@@ -1,0 +1,13 @@
+{
+    "navbar": true,
+    "splashpage": true,
+    "simplesplashpage": false,
+    "myroom": false,
+    "about": true,
+    "gallery": false,
+    "education": true,
+    "experience": false,
+    "stats": false,
+    "certificates": false,
+    "footer": false
+}
