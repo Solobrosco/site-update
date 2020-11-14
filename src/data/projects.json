@@ -4,7 +4,7 @@
         "client": "UC Merced Library",
         "start": "January 2020",
         "end": "May 2020",  
-        "link": "#",
+        "link": "http://library.ucmerced.edu/",
         "description": ""
     },
     {
@@ -12,7 +12,7 @@
         "client": "New-Edge-Developer",
         "start": "August 2019",
         "end": "May 2020",  
-        "link": "",
+        "link": "https://basicneeds.ucmerced.edu/",
         "description": ""
     },
     {
@@ -20,15 +20,15 @@
         "client": "Merced Vernal Pools & Grasslands Reserve",
         "start": "August 2017",
         "end": "December 2017",
-        "link": "",
+        "link": "https://engineeringservicelearning.ucmerced.edu/team-natapp",
         "description": ""
     },
     {
         "name": "Mahjong Online",
         "client": "Open Source",
-        "start": "",
+        "start": "May 2020",
         "end": "Present",  
-        "link": "",
+        "link": "https://github.com/Solobrosco/mahjongtable",
         "description": ""
     },
     {
