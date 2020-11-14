@@ -1,7 +1,7 @@
 {
     "navbar": true,
-    "splashpage": true,
-    "simplesplashpage": false,
+    "splashpage": false,
+    "simplesplashpage": true,
     "myroom": false,
     "about": true,
     "gallery": false,
