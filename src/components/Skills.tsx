@@ -7,11 +7,11 @@ interface SkillsProps {
 
 const Skills = (props: SkillsProps) => {
     return(
-        <div className='bg-blue-700'>
-            <div>
+        <div className='py-1 bg-gray-700 flex'>
+            <div className='w-1/2'>
                 {props.name}
             </div>
-            <div>
+            <div className='w-1/2'>
                 {props.rank}
             </div>
         </div>
