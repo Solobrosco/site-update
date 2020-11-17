@@ -4,15 +4,15 @@ import education from '../data/education.json';
 
 const Education = () => {
     return(
-        <div className="bg-gray-800 text-white text-center items-center justify-center">
-            <div id='Experience' className='text-xl py-3 font-bold'>Education</div>
-                <div className='pb-3'>
+        <div className="pb-2 bg-gray-800 text-white text-center items-center justify-center">
+            <div id='Experience' className='text-5xl py-1 font-black'>Education</div>
+                <div className='text-2xl'>
                     {education.school}
-                    <br></br>
-                    {education.major}
-                    <br></br>
-                    {education.time}
                 </div>
+                <div className='text-xl'>
+                    {education.major}
+                </div>
+                {education.time}
         </div>
     );
 }

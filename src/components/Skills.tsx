@@ -7,7 +7,7 @@ interface SkillsProps {
 
 const Skills = (props: SkillsProps) => {
     return(
-        <div className='py-1 bg-gray-700 flex'>
+        <div className='text-xl font-medium py-1 flex'>
             <div className='w-1/2'>
                 {props.name}
             </div>
