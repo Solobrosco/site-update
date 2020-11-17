@@ -6,7 +6,7 @@ import states from '../data/state.json';
 const NavBar = () => {
     const [open, setOpen] = useState(false);
     return(
-        <header className='bg-gray-900'>
+        <header className='bg-gray-900 sticky top-0'>
             <div className="flex items-center justify-between py-4 px-10">
                 <div className='h-5 font-bold text-white'>
                     <div className='text-base'>Nikko A. Solon</div>
@@ -20,11 +20,11 @@ const NavBar = () => {
             </div>
             {open && (
                 <div className='px-8 pb-4'>
-                    <a href='#Home' className='hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Home</a>
-                    {states.about && (<a href='#About' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>About me</a>)}
-                    {states.gallery && (<a href='#Gallery' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Gallery</a>)}
-                    {states.experience && (<a href='#Experience' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Experience</a>)}
-                    {states.stats && (<a href='#Stats' className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Stats</a>)}
+                    <a href='#top' className='hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold' onClick={() => setOpen(!open)}>Home</a>
+                    {states.about && (<a href='#About' onClick={() => setOpen(!open)} className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>About me</a>)}
+                    {states.gallery && (<a href='#Gallery' onClick={() => setOpen(!open)} className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Gallery</a>)}
+                    {states.experience && (<a href='#Experience' onClick={() => setOpen(!open)} className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Experience</a>)}
+                    {states.stats && (<a href='#Stats' onClick={() => setOpen(!open)} className='mt-1 hover:bg-gray-700 rounded px-2 py-1 block text-white font-semibold'>Stats</a>)}
                 </div>
             )}
         </header>
