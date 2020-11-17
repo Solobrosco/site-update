@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/main.css';
 
+// COMPONENTS
 import NavBar from './components/NavBar';
 import SplashPage from './components/SplashPage';
 import MyRoom from './components/MyRoom';
@@ -8,7 +9,9 @@ import About from './components/About';
 import SimpleSplashPage from './components/SimpleSplashPage';
 import Gallery from './components/Gallery';
 import Education from './components/Education';
+import Experience from './components/Experience'
 
+// DATA
 import state from './data/state.json';
 
 function App() {
@@ -21,7 +24,8 @@ function App() {
       {state.about && <About />}
       {state.gallery && <Gallery />}
       {state.education && <Education />}
-      {/* <div className="bg-blue-500 text-white">Experience</div>
+      {state.experience && <Experience />}
+      {/*
       <div className="bg-blue-400 text-white">Stats(optional)</div>
       <div className="bg-blue-300 text-white">Footer Created with React typescript, tailwind and spring.</div> */}
     </div>
