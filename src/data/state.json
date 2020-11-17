@@ -6,7 +6,7 @@
     "about": true,
     "gallery": false,
     "education": true,
-    "experience": false,
+    "experience": true,
     "stats": false,
     "certificates": false,
     "footer": false
