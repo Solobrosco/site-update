@@ -9,7 +9,9 @@ import About from './components/About';
 import SimpleSplashPage from './components/SimpleSplashPage';
 import Gallery from './components/Gallery';
 import Education from './components/Education';
-import Experience from './components/Experience'
+import Experience from './components/Experience';
+import Stats from './components/Stats';
+import Footer from './components/Footer';
 
 // DATA
 import state from './data/state.json';
@@ -25,9 +27,8 @@ function App() {
       {state.gallery && <Gallery />}
       {state.education && <Education />}
       {state.experience && <Experience />}
-      {/*
-      <div className="bg-blue-400 text-white">Stats(optional)</div>
-      <div className="bg-blue-300 text-white">Footer Created with React typescript, tailwind and spring.</div> */}
+      {state.stats && <Stats />}
+      {state.footer && <Footer />}
     </div>
   );
 }
