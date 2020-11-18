@@ -1,9 +1,12 @@
 import React from 'react';
 
+// COMPONENTS
 import SkillComp from './Skills';
 
+// STATIC
 import ProfilePicture from '../static/placeholder.png';
 
+// DATA
 import skills from '../data/skills.json';
 
 
@@ -24,7 +27,8 @@ const About = () => {
                 Skills
             </h3>
             <div className='py-5'>
-                {skills.map((skillitem: any) => <SkillComp name={skillitem.name as string} rank={skillitem.rating as string}/>)}
+                {false && skills.map((skillitem: any) => <SkillComp name={skillitem.name as string} rank={skillitem.rating as string}/>)}
+                <SkillComp name={'Code'} rank={'3'}/>
             </div>
         </div>
     );
