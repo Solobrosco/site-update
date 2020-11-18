@@ -7,7 +7,7 @@
     "gallery": false,
     "education": true,
     "experience": true,
-    "stats": false,
+    "stats": true,
     "certificates": false,
-    "footer": false
+    "footer": true
 }
