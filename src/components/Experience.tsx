@@ -1,5 +1,6 @@
 import React from 'react';
 
+// DATA
 import experience from '../data/experience.json';
 
 const Experience = () => {
@@ -14,12 +15,6 @@ const Experience = () => {
                 <div>{item.start} - {item.end}</div>
                 <div className=''>{item.description}</div>
             </div>)}
-            <div className='text-5xl bg-blue-900 font-black py-5'>
-                Download Resume
-            </div>
-            <div className='text-5xl bg-blue-800 font-black py-5'>
-                View Certificates
-            </div>
         </div>
     );
 }

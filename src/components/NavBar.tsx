@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// DATA
 import states from '../data/state.json';
 // Add clock and data to nav bar
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
 
+// LAYERS
 import Layer0 from '../static/Background.svg'
 import Layer1 from '../static/Stars.svg'
 import Layer2 from '../static/Moon.svg'
@@ -9,6 +10,7 @@ import Layer4 from '../static/Foreground.svg'
 
 // attribution <a href="https://www.vecteezy.com/free-vector/nature">Nature Vectors by Vecteezy</a>
 
+// PROPS
 interface SplashPageProps {
     text: string;
 }

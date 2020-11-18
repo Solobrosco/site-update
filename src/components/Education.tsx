@@ -1,5 +1,6 @@
 import React from 'react';
 
+// DATA
 import education from '../data/education.json';
 
 const Education = () => {

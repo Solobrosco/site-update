@@ -1,5 +1,6 @@
 import React from "react";
 
+// PROPS
 interface SkillsProps {
     name: string,
     rank: string,
