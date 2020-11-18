@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyRoom = () => {
     return(
-        <div className='text-white py-5 bg-blue-800 flex items-center justify-center'>
+        <div className='text-white py-5 bg-blue-800 flex items-center'>
             <div className='block'>
                 <h2 className='font-semibold px-5'>
                     Want to talk? Join my room if its open! I'm happy to talk with you.

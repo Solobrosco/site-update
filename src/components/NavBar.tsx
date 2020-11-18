@@ -7,7 +7,7 @@ const NavBar = () => {
     const [open, setOpen] = useState(false);
     return(
         <header className='bg-gray-900 sticky top-0'>
-            <div className="flex items-center justify-between py-4 px-10">
+            <div className="flex justify-between py-4 px-10">
                 <div className='h-5 font-bold text-white'>
                     <div className='text-base'>Nikko A. Solon</div>
                 </div>

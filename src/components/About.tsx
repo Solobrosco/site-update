@@ -9,7 +9,7 @@ import skills from '../data/skills.json';
 
 const About = () => {
     return(
-        <div id='About' className='bg-blue-700 text-white text-center items-center justify-center'>
+        <div id='About' className='bg-blue-700 text-white text-center items-center'>
             <div className='font-black text-5xl'>
                 About
                 <img className='object-center' src={ProfilePicture} alt='profile' height="200" width="200"/>

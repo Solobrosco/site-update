@@ -26,7 +26,7 @@ const SplashPage = (props: SplashPageProps) => {
                 <img src={Layer2} alt='moon'></img>
             </ParallaxLayer>
             <ParallaxLayer offset={0.3} speed={2}>
-                <div className=" sm:text-3xl md:text-6xl text-bold text-center text-white justify-center items-center h-10">
+                <div className=" sm:text-3xl md:text-6xl text-bold text-center text-white h-10">
                     <p className='hover:text-gray-200'>
                         {props.text}
                     </p>
