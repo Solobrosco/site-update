@@ -1,4 +1,5 @@
 import React from 'react';
+// STYLES
 import './styles/main.css';
 
 // COMPONENTS
@@ -10,6 +11,7 @@ import SimpleSplashPage from './components/SimpleSplashPage';
 import Gallery from './components/Gallery';
 import Education from './components/Education';
 import Experience from './components/Experience';
+import Downloads from './components/Downloads';
 import Stats from './components/Stats';
 import Footer from './components/Footer';
 
@@ -27,6 +29,7 @@ function App() {
       {state.gallery && <Gallery />}
       {state.education && <Education />}
       {state.experience && <Experience />}
+      {state.certificates && <Downloads />}
       {state.stats && <Stats />}
       {state.footer && <Footer />}
     </div>
