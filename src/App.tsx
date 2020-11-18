@@ -29,7 +29,7 @@ function App() {
       {state.gallery && <Gallery />}
       {state.education && <Education />}
       {state.experience && <Experience />}
-      {state.certificates && <Downloads />}
+      {state.downloads && <Downloads resume={state.downloads.resume} certificates={state.downloads.certificates}/>}
       {state.stats && <Stats />}
       {state.footer && <Footer />}
     </div>
