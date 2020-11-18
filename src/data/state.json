@@ -8,6 +8,9 @@
     "education": true,
     "experience": true,
     "stats": true,
-    "certificates": false,
+    "downloads": {
+        "resume": true,
+        "certificates": true
+    },
     "footer": true
 }
