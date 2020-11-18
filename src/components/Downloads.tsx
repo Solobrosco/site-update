@@ -1,14 +1,19 @@
 import React from 'react';
 
-const Downloads = () => {
+interface DownloadsProps {
+    resume?: boolean,
+    certificates?: boolean,
+}
+
+const Downloads = (props: DownloadsProps) => {
     return(
         <div className='text-center text-white'>
-            <div className='text-5xl bg-blue-900 font-black py-5'>
+            {props.resume && <div className='text-5xl bg-blue-900 font-black py-5'>
                 Download Resume
-            </div>
-            <div className='text-5xl bg-blue-800 font-black py-5'>
+            </div>}
+            {props.certificates && <div className='text-5xl bg-blue-800 font-black py-5'>
                 View Certificates
-            </div>
+            </div>}
         </div>
     );
 }
