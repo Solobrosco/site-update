@@ -21,7 +21,7 @@ import state from './data/state.json';
 function App() {
   return (
     <div className="justify-center items-center">
-      {state.navbar && <NavBar/>}
+      {state.navbar && <NavBar time={state.navbar.time} date={state.navbar.date}/>}
       {state.splashpage && <SplashPage text={'Aspire to inspire before we expire.'}/>}
       {state.simplesplashpage && <SimpleSplashPage />}
       {state.myroom && <MyRoom />}
