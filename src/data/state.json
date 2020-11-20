@@ -1,5 +1,8 @@
 {
-    "navbar": true,
+    "navbar": {
+        "time": false,
+        "date": false
+    },
     "splashpage": false,
     "simplesplashpage": true,
     "myroom": false,
