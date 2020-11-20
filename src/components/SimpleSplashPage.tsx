@@ -13,7 +13,7 @@ function pickRandomQuote () {
 const SimpleSplashPage = () =>{
     let quote = pickRandomQuote();
     return(
-        <div className="bg-blue-900 text-white text-center" >
+        <div className="bg-blue-900 text-white text-center px-10" >
             <h1 className='font-medium text-2xl'>"{quote.quote}"<br></br><span className='font-thin'>- {quote.author}</span></h1>
         </div>
     );

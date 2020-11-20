@@ -4,7 +4,7 @@ import React from 'react';
 import SkillComp from './Skills';
 
 // STATIC
-import ProfilePicture from '../static/placeholder.png';
+// import ProfilePicture from '../static/placeholder.png';
 
 // DATA
 import skills from '../data/skills.json';
@@ -12,10 +12,10 @@ import skills from '../data/skills.json';
 
 const About = () => {
     return(
-        <div id='About' className='bg-blue-700 text-white text-center items-center'>
+        <div id='About' className='px-10 bg-blue-700 text-white text-center items-center'>
             <div className='font-black text-5xl'>
                 About
-                <img className='object-center' src={ProfilePicture} alt='profile' height="200" width="200"/>
+                {/* <img className='object-center' src={ProfilePicture} alt='profile' height="200" width="200"/> */}
             </div>
             <h2 className='text-4xl py-3 font-bold'>
                 Check me out!
