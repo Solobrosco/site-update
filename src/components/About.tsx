@@ -27,8 +27,8 @@ const About = () => {
                 Skills
             </h3>
             <div className='py-5'>
-                {false && skills.map((skillitem: any) => <SkillComp name={skillitem.name as string} rank={skillitem.rating as string}/>)}
-                <SkillComp name={'Code'} rank={'3'}/>
+                {true && skills.map((skillitem: any) => <SkillComp name={skillitem.name as string} rank={skillitem.rating}/>)}
+                {/* <SkillComp name={'Code'} rank={3}/> */}
             </div>
         </div>
     );
