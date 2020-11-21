@@ -7,11 +7,11 @@ interface DownloadsProps {
 
 const Downloads = (props: DownloadsProps) => {
     return(
-        <div className='text-center text-white'>
-            {props.resume && <div className='px-10 text-5xl bg-blue-900 font-black py-5'>
+        <div className='text-center text-gruvwhite'>
+            {props.resume && <div className='px-10 text-5xl bg-gruvbg-3 font-black py-5'>
                 Download Resume
             </div>}
-            {props.certificates && <div className='px-10 text-5xl bg-blue-800 font-black py-5'>
+            {props.certificates && <div className='px-10 text-5xl bg-gruvbg-2 font-black py-5'>
                 View Certificates
             </div>}
         </div>

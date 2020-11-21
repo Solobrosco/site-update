@@ -12,13 +12,13 @@ import skills from '../data/skills.json';
 
 const About = () => {
     return(
-        <div id='About' className='px-10 bg-blue-700 text-white text-center items-center'>
+        <div id='About' className='px-10 bg-gruvbg-2 text-gruvwhite text-center items-center'>
             <div className='font-black text-5xl'>
                 About
                 {/* <img className='object-center' src={ProfilePicture} alt='profile' height="200" width="200"/> */}
             </div>
             <h2 className='text-4xl py-3 font-bold'>
-                Check me out!
+                Check it out!
             </h2>
             <p>
                 Here is a list of technologies and skills I have been working with and obtained.
