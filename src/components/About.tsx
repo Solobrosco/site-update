@@ -4,7 +4,7 @@ import React from 'react';
 import SkillComp from './Skills';
 
 // STATIC
-// import ProfilePicture from '../static/placeholder.png';
+import ProfilePicture from '../static/placeholder.png';
 
 // DATA
 import skills from '../data/skills.json';
@@ -15,7 +15,9 @@ const About = () => {
         <div id='About' className='px-10 bg-gruvbg-2 text-gruvwhite text-center items-center'>
             <div className='font-black text-5xl'>
                 About
-                {/* <img className='object-center' src={ProfilePicture} alt='profile' height="200" width="200"/> */}
+                <div className='flex justify-center'>
+                    <img src={ProfilePicture} alt='profile' height="200" width="200"/>
+                </div>
             </div>
             <h2 className='text-4xl py-3 font-bold'>
                 Check it out!
