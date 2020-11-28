@@ -11,7 +11,7 @@ const Experience = () => {
                 <div className='font-bold text-3xl'>{item.title}</div>
                 <div className='text-2xl font-semibold'>{item.company}</div>
                 <div className='font-medium'>{item.start} - {item.end}</div>
-                <div className='font-thin'>{item.description}</div>
+                {/* <div className='font-thin'>{item.description}</div> */}
             </div>)}
         </div>
     );
