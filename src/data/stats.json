@@ -5,10 +5,11 @@
     },
     "Percent of the time": {
         "title": "Cups of Coffee",
+        "rate": 0.2,
         "start": "06-12-2016"
     },
     "Updating": {
         "title": "Times Clicked",
-        "num": 0
+        "default": 0
     }
 }
