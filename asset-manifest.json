@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/site-update/static/css/main.51b97300.chunk.css",
-    "main.js": "/site-update/static/js/main.77714617.chunk.js",
-    "main.js.map": "/site-update/static/js/main.77714617.chunk.js.map",
+    "main.js": "/site-update/static/js/main.c934f103.chunk.js",
+    "main.js.map": "/site-update/static/js/main.c934f103.chunk.js.map",
     "runtime-main.js": "/site-update/static/js/runtime-main.fc97da86.js",
     "runtime-main.js.map": "/site-update/static/js/runtime-main.fc97da86.js.map",
-    "static/js/2.bf8c9383.chunk.js": "/site-update/static/js/2.bf8c9383.chunk.js",
-    "static/js/2.bf8c9383.chunk.js.map": "/site-update/static/js/2.bf8c9383.chunk.js.map",
+    "static/js/2.407a8193.chunk.js": "/site-update/static/js/2.407a8193.chunk.js",
+    "static/js/2.407a8193.chunk.js.map": "/site-update/static/js/2.407a8193.chunk.js.map",
     "index.html": "/site-update/index.html",
-    "precache-manifest.61be01bcfdd6b655771c460e14a8b3f4.js": "/site-update/precache-manifest.61be01bcfdd6b655771c460e14a8b3f4.js",
+    "precache-manifest.a4ff3e69ad926684d7d51c6e1d87b6ef.js": "/site-update/precache-manifest.a4ff3e69ad926684d7d51c6e1d87b6ef.js",
     "service-worker.js": "/site-update/service-worker.js",
     "static/css/main.51b97300.chunk.css.map": "/site-update/static/css/main.51b97300.chunk.css.map",
-    "static/js/2.bf8c9383.chunk.js.LICENSE.txt": "/site-update/static/js/2.bf8c9383.chunk.js.LICENSE.txt",
+    "static/js/2.407a8193.chunk.js.LICENSE.txt": "/site-update/static/js/2.407a8193.chunk.js.LICENSE.txt",
     "static/media/Background.svg": "/site-update/static/media/Background.73205117.svg",
     "static/media/Foreground.svg": "/site-update/static/media/Foreground.9e91d4a5.svg",
     "static/media/Moon.svg": "/site-update/static/media/Moon.ea7919f2.svg",
     "static/media/MountainLake.svg": "/site-update/static/media/MountainLake.9c822371.svg",
-    "static/media/Stars.svg": "/site-update/static/media/Stars.9ffb2a9e.svg"
+    "static/media/Stars.svg": "/site-update/static/media/Stars.9ffb2a9e.svg",
+    "static/media/The_University_of_California_1868.svg": "/site-update/static/media/The_University_of_California_1868.2c9ac458.svg",
+    "static/media/placeholder.png": "/site-update/static/media/placeholder.d13b0919.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fc97da86.js",
-    "static/js/2.bf8c9383.chunk.js",
+    "static/js/2.407a8193.chunk.js",
     "static/css/main.51b97300.chunk.css",
-    "static/js/main.77714617.chunk.js"
+    "static/js/main.c934f103.chunk.js"
   ]
 }
