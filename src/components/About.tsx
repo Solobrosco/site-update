@@ -29,7 +29,7 @@ const About = () => {
                 Skills
             </h3>
             <div className='py-5'>
-                {true && skills.map((skillitem: any) => <SkillComp name={skillitem.name as string} rank={skillitem.rating}/>)}
+                {true && skills.map((skillitem: any, i: number) => <SkillComp key={i} name={skillitem.name as string} rank={skillitem.rating}/>)}
                 {/* <SkillComp name={'Code'} rank={3}/> */}
             </div>
         </div>
