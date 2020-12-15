@@ -17,7 +17,7 @@ const NavBar = (props: NavBarProps) => {
     return(
             <div className='bg-gruvblack sticky top-0 cursor-default text-gruvwhite'>
                 {/* <header className='bg-gray-900 sticky top-0'> */}
-                <div className="flex inline-block align-middle px-10 py-3 text-center">
+                <div className="flex inline-block align-middle px-3 py-3 text-center">
                     <div className='w-1/3 text-left ml-2'>
                         <span onClick={() =>{window.location.reload();}} className=' hover:text-graygruv-light font-bold'>
                             Nikko A. Solon
@@ -42,7 +42,7 @@ const NavBar = (props: NavBarProps) => {
                     </div>
                 </div>
                 {open && (
-                    <div className='px-10 pb-4 text-gruvwhite font-bold'>
+                    <div className='px-3 pb-4 text-gruvwhite font-bold'>
                         <a href='#top' className='hover:text-gruvfg-1 hover:bg-gruvbg-1 rounded px-2 py-1 block' onClick={() => setOpen(!open)}>Home</a>
                         {states.about && (<a href='#About' onClick={() => setOpen(!open)} className='hover:text-gruvfg-1 mt-1 hover:bg-gruvbg-1 rounded pl-2 py-1 block'>About me</a>)}
                         {states.gallery && (<a href='#Gallery' onClick={() => setOpen(!open)} className='hover:text-gruvfg-1 mt-1 hover:bg-gruvbg-1 rounded pl-2 py-1 block'>Gallery</a>)}

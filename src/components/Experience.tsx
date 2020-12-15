@@ -5,7 +5,7 @@ import experience from '../data/experience.json';
 
 const Experience = () => {
     return(
-        <div className='bg-gruvbg-1 text-gruvwhite text-center px-10'>
+        <div className='bg-gradient-to-t from-gruvbg-4 to-gruvbg-0 text-gruvwhite text-center px-10'>
             <div className='font-black text-5xl py-2'>Experience</div>
             {experience.map((item: any, i: number) => <div key={i} className='py-1'>
                 <div key={i+1} className='font-bold text-3xl'>{item.title}</div>
