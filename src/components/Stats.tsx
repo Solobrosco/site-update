@@ -33,14 +33,14 @@ const Stats = (stat?: StatsProps) => {
     return(
         <div className='text-center text-gruvwhite bg-gruvbg-1'>
             <div className='text-3xl font-black'>Stats</div>
-            <div className='flex  justify-center p-3'>
+            <div className='flex space-x-3 justify-center p-3'>
                 <div className='text-2xl font-bold p-5 bg-greengruv-light rounded text-gruvbg-1'>
                     {stats["Start to Present"].title}
                     <span>  </span>
                     {startToNow(stats["Start to Present"].start)}
                 </div>
-                <div className='text-2xl font-bold p-5 cursor-pointer bg-redgruv rounded'>
-                    <div onClick={() => setCount(count + 1)}>
+                <div className='text-2xl font-bold p-5 cursor-pointer bg-redgruv rounded' onClick={() => setCount(count + 1)}>
+                    <div>
                         Times Clicked {count}
                     </div>
                 </div>
