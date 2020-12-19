@@ -7,8 +7,8 @@ import education from '../data/education.json';
 
 const Education = () => {
     return(
-        <div className="px-3 pb-2 bg-gruvbg-0 text-gruvwhite text-center flex justify-center items-center">
-            <div id='Experience' className='w-4/6 py-1'>
+        <div className="p-3 bg-gruvbg-0 text-gruvwhite text-center flex justify-center items-center">
+            <div id='Experience' className='w-4/6 p-1'>
                 <div className='text-5xl font-black'>
                     Education
                 </div>

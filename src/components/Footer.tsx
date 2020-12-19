@@ -21,7 +21,7 @@ const Footer = () => {
                 Deployed with Github pages
             </div >
             <div className='font-thin text-xs'>
-                version {pack.version} | view source
+                version {pack.version} | <a className='hover:text-graygruv-light' href='https://github.com/Solobrosco/site-update'>source</a>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 
 // DATA
 import quotes from '../data/quotes.json';
-
+// webgl background canvas
 function pickRandomQuote () {
     let keys = Object.keys(quotes);
     let randIndex = keys[Math.floor(Math.random() * keys.length)];
