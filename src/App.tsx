@@ -17,11 +17,12 @@ import Footer from './components/Footer';
 
 // DATA
 import state from './data/state.json';
+import home from './data/home.json';
 
 function App() {
   return (
     <div className="justify-center items-center">
-      {state.navbar && <NavBar time={state.navbar.time} date={state.navbar.date}/>}
+      {home.Navbar && <NavBar navBar={home.Navbar}/>}
       {state.splashpage && <SplashPage text={'Aspire to inspire before we expire.'}/>}
       {state.simplesplashpage && <SimpleSplashPage />}
       {state.myroom && <MyRoom />}

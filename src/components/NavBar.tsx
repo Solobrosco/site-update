@@ -8,8 +8,15 @@ import states from '../data/state.json';
 // fix spacing 
 
 interface NavBarProps {
-    time: boolean,
-    date: boolean
+    navBar:{
+        default: boolean,
+        name: string,
+        showClock: {
+            default: boolean,
+            time: boolean,
+            date: boolean
+        }
+    }
 }
 
 const NavBar = (props: NavBarProps) => {
@@ -25,11 +32,11 @@ const NavBar = (props: NavBarProps) => {
                     </div>
                     <div className='w-1/3 font-bold'>
                         <span className='hover:text-graygruv-light'>
-                            {props.date ? moment().format('dddd MMMM DD, YYYY') : 'Feburary 16th 2020'}
+                            {props.navBar.showClock.date ? moment().format('dddd MMMM DD, YYYY') : 'Feburary 16th 2020'}
                         </span>
                         <span> </span>
                         <span className='text-aquagruv-light hover:text-aquagruv-dark'>  
-                            {props.time ? <Clock format={'H:mm:ss'} ticking={true} timezone={'US/Pacific'} /> : "10:10:35"}
+                            {props.navBar.showClock.time ? <Clock format={'H:mm:ss'} ticking={true} timezone={'US/Pacific'} /> : "10:10:35"}
                         </span>
                     </div>
                     <div className='w-1/3 text-right'>

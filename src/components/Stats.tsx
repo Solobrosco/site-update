@@ -34,14 +34,22 @@ const Stats = (stat?: StatsProps) => {
         <div className='text-center text-gruvwhite bg-gruvbg-1'>
             <div className='text-3xl font-black'>Stats</div>
             <div className='flex space-x-3 justify-center p-3'>
-                <div className='text-2xl font-bold p-5 bg-greengruv-light rounded text-gruvbg-1'>
-                    {stats["Start to Present"].title}
-                    <span>  </span>
-                    {startToNow(stats["Start to Present"].start)}
+                <div className='text-2xl font-bold p-5 bg-green-700 rounded'>
+                    {stats["Start to Present"].title} {startToNow(stats["Start to Present"].start)}
                 </div>
                 <div className='text-2xl font-bold p-5 cursor-pointer bg-redgruv rounded' onClick={() => setCount(count + 1)}>
                     <div>
-                        Times Clicked {count}
+                        {stats.Updating.title} {count}
+                    </div>
+                </div>
+                <div className='text-2xl font-bold p-5 cursor-pointer bg-blue-800 rounded' onClick={() => setCount(count + 1)}>
+                    <div>
+                        {stats.Amazon.title} {stats.Amazon.rate}
+                    </div>
+                </div>
+                <div className='text-2xl font-bold p-5 cursor-pointer bg-orangegruv rounded' onClick={() => setCount(count + 1)}>
+                    <div>
+                        {stats.Instacart.title} {stats.Instacart.default} Stars
                     </div>
                 </div>
             </div>

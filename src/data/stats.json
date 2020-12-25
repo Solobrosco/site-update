@@ -11,5 +11,13 @@
     "Updating": {
         "title": "Times Clicked",
         "default": 0
+    },
+    "Amazon": {
+        "title": "Stow Rate",
+        "rate": 376
+    },
+    "Instacart": {
+        "title": "Instacart Rating",
+        "default": 4.67
     }
 }
