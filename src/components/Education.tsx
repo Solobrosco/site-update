@@ -2,10 +2,13 @@ import React from 'react';
 
 import Seal from '../static/The_University_of_California_1868.svg';
 
-// DATA
-import education from '../data/education.json';
+interface educationProps{
+    school: string,
+    major: string,
+    time: string
+}
 
-const Education = () => {
+const Education = (props: educationProps) => {
     return(
         <div className="p-3 bg-gruvbg-0 text-gruvwhite text-center flex justify-center items-center">
             <div id='Experience' className='w-4/6 p-1'>
@@ -13,13 +16,13 @@ const Education = () => {
                     Education
                 </div>
                 <div className='text-2xl'>
-                    {education.school}
+                    {props.school}
                 </div>
                 <div className='text-xl'>
-                    {education.major}
+                    {props.major}
                 </div>
                 <div className='font-thin'>
-                    {education.time}
+                    {props.time}
                 </div>
             </div>
             <div className='w-2/6'>

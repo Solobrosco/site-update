@@ -1,5 +1,5 @@
 {
-    "Navbar": {
+    "navbar": {
         "default": true,
         "name": "Nikko A. Solon",
         "showClock": {
@@ -8,7 +8,7 @@
             "date": true
         }
     },
-    "Splash": {
+    "simpleSplash": {
         "default": true,
         "quotes": {
             "0": {
@@ -93,7 +93,10 @@
             }
         }
     },
-    "About": {
+    "splash": false,
+    "myRoom": false,
+    "gallery": false,
+    "about": {
         "default": true,
         "skills" : [
                 {
@@ -228,13 +231,13 @@
                 }
             ]
     },
-    "Education": {
+    "education": {
         "default": true,
         "school": "University of California, Merced",
         "major": "Computer Science and Engineering",
         "date": "August 2016 - May 2020"
     },
-    "Experience": {
+    "experience": {
         "default": true,
         "role": [
             {
@@ -288,8 +291,14 @@
             }
         ]
     },
-    "Downloads": true,
-    "Stats": {
+    "downloads": {
+        "default": true,
+        "button": {
+            "resume": true,
+            "certificates": true
+        }
+    },
+    "stats": {
         "default": true,
         "initial": {
             "Start to Present": {
@@ -315,5 +324,5 @@
             }
         }
     },
-    "Footer": true
+    "footer": true
 }

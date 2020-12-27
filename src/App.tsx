@@ -16,23 +16,22 @@ import Stats from './components/Stats';
 import Footer from './components/Footer';
 
 // DATA
-import state from './data/state.json';
 import home from './data/home.json';
 
 function App() {
   return (
     <div className="justify-center items-center">
-      {home.Navbar && <NavBar navBar={home.Navbar}/>}
-      {state.splashpage && <SplashPage text={'Aspire to inspire before we expire.'}/>}
-      {state.simplesplashpage && <SimpleSplashPage />}
-      {state.myroom && <MyRoom />}
-      {state.about && <About />}
-      {state.gallery && <Gallery />}
-      {state.education && <Education />}
-      {state.experience && <Experience />}
-      {state.downloads && <Downloads resume={state.downloads.resume} certificates={state.downloads.certificates}/>}
-      {state.stats && <Stats />}
-      {state.footer && <Footer />}
+      {home.navbar && <NavBar navBar={home.navbar}/>}
+      {home.splash && <SplashPage text={'Aspire to inspire before we expire.'}/>}
+      {home.simpleSplash && <SimpleSplashPage quotes={home.simpleSplash.quotes} img={false}/>}
+      {home.myRoom && <MyRoom />}
+      {home.about && <About />}
+      {home.gallery && <Gallery />}
+      {home.education && <Education school={home.education.school} major={home.education.major} time={home.education.date}/>}
+      {home.experience && <Experience />}
+      {home.downloads && <Downloads resume={home.downloads.button.resume} certificates={home.downloads.button.certificates}/>}
+      {home.stats && <Stats />}
+      {home.footer && <Footer />}
     </div>
   );
 }
