@@ -22,7 +22,7 @@ interface NavBarProps {
 const NavBar = (props: NavBarProps) => {
     const [open, setOpen] = useState(false);
     return(
-        <div className='bg-gruvbg-0 shadow-md sticky top-0 cursor-default text-gruvwhite'>
+        <div className='bg-gruvbg-0 border-b-4 border-gray-900 shadow-md sticky top-0 cursor-default text-gruvwhite'>
             <div className="flex inline-block align-middle px-3 py-3 text-center">
                 <div className='w-1/3 text-left ml-2'>
                     <span onClick={() =>{window.location.reload();}} className='hover:text-graygruv-light font-bold'>

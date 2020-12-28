@@ -43,12 +43,12 @@ const Stats = (props: StatsProps) => {
                         {stats.Updating.title} {count}
                     </div>
                 </div>
-                <div className='text-2xl font-bold p-5 cursor-pointer bg-blue-800 rounded' onClick={() => setCount(count + 1)}>
+                <div className='text-2xl font-bold p-5 cursor-pointer bg-blue-800 rounded'>
                     <div>
                         {stats.Amazon.title} {stats.Amazon.rate}
                     </div>
                 </div>
-                <div className='text-2xl font-bold p-5 cursor-pointer bg-orangegruv rounded' onClick={() => setCount(count + 1)}>
+                <div className='text-2xl font-bold p-5 cursor-pointer bg-orangegruv rounded'>
                     <div>
                         {stats.Instacart.title} {stats.Instacart.default} Stars
                     </div>
