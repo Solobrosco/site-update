@@ -6,11 +6,13 @@ import SkillComp from './Skills';
 // STATIC
 import ProfilePicture from '../static/placeholder.png';
 
-// DATA
-import skills from '../data/skills.json';
+interface aboutProps {
+    skills: {}[]
+}
 
+// Add more to interface
 
-const About = () => {
+const About = (props: aboutProps) => {
     return(
         <div id='About' className='px-3 bg-gradient-to-t from-gruvbg-0 to-gruvbg-4 text-gruvwhite text-center items-center'>
             <div className='font-black text-5xl'>
@@ -29,8 +31,8 @@ const About = () => {
                 Skills
             </h3>
             <div className='pb-5'>
-                {true && skills.map((skillitem: any, i: number) => <SkillComp key={i} name={skillitem.name as string} rank={skillitem.rating}/>)}
-                {/* <SkillComp name={'Code'} rank={3}/> */}
+                {/* Test Skill Comp */}
+                {false ? <SkillComp name={'Test'} rank={3}/> : props.skills.map((skillitem: any, i: number) => <SkillComp key={i} name={skillitem.name as string} rank={skillitem.rating}/>)}
             </div>
         </div>
     );

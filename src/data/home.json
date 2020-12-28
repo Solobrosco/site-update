@@ -98,138 +98,138 @@
     "gallery": false,
     "about": {
         "default": true,
-        "skills" : [
-                {
-                    "name": "Python",
-                    "type": "tech",
-                    "rating": 5
-                },
-                {
-                    "name": "HTML",
-                    "type": "tech",
-                    "rating": 5 
-                },
-                {
-                    "name": "CSS",
-                    "type": "tech",
-                    "rating": 5 
-                },
-                {
-                    "name": "C++",
-                    "type": "tech",
-                    "rating": 4
-                },
-                {
-                    "name": "Java",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "JQUERY",
-                    "type": "tech",
-                    "rating": 3
-                },
-                {
-                    "name": "SQLITE",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "Angular",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "React",
-                    "type": "tech",
-                    "rating": 4 
-                },
-                {
-                    "name": "Typescript",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "Swift",
-                    "type": "tech",
-                    "rating": 2 
-                },
-                {
-                    "name": "JavaScript (ES6)",
-                    "type": "tech",
-                    "rating": 4 
-                },
-                {
-                    "name": "Matlab",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "R",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "Photoshop",
-                    "type": "tech",
-                    "rating": 5 
-                },
-                {
-                    "name": "Illustrator",
-                    "type": "tech",
-                    "rating": 5
-                },
-                {
-                    "name": "After Effects",
-                    "type": "tech",
-                    "rating": 5 
-                },
-                {
-                    "name": "Indesign",
-                    "type": "tech",
-                    "rating": 5 
-                },
-                {
-                    "name": "Excel",
-                    "type": "tech",
-                    "rating": 4 
-                },
-                {
-                    "name": "Arduino Uno",
-                    "type": "tech",
-                    "rating": 4 
-                },
-                {
-                    "name": "Raspberry Pi",
-                    "type": "tech",
-                    "rating": 4 
-                },
-                {
-                    "name": "Soldering",
-                    "type": "skill",
-                    "rating": 5 
-                },
-                {
-                    "name": "DSLR Camera",
-                    "type": "skill",
-                    "rating": 5 
-                },
-                {
-                    "name": "LaTeX",
-                    "type": "tech",
-                    "rating": 2 
-                },
-                {
-                    "name": "Pen Testing",
-                    "type": "tech",
-                    "rating": 3 
-                },
-                {
-                    "name": "Computer Vision",
-                    "type": "tech",
-                    "rating": 4 
-                }
-            ]
+        "skills" :[
+            {
+                "name": "Python",
+                "type": "tech",
+                "rating": 5
+            },
+            {
+                "name": "HTML",
+                "type": "tech",
+                "rating": 5 
+            },
+            {
+                "name": "CSS",
+                "type": "tech",
+                "rating": 5 
+            },
+            {
+                "name": "C++",
+                "type": "tech",
+                "rating": 4
+            },
+            {
+                "name": "Java",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "JQUERY",
+                "type": "tech",
+                "rating": 3
+            },
+            {
+                "name": "SQLITE",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "Angular",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "React",
+                "type": "tech",
+                "rating": 4 
+            },
+            {
+                "name": "Typescript",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "Swift",
+                "type": "tech",
+                "rating": 2 
+            },
+            {
+                "name": "JavaScript (ES6)",
+                "type": "tech",
+                "rating": 4 
+            },
+            {
+                "name": "Matlab",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "R",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "Photoshop",
+                "type": "tech",
+                "rating": 5 
+            },
+            {
+                "name": "Illustrator",
+                "type": "tech",
+                "rating": 5
+            },
+            {
+                "name": "After Effects",
+                "type": "tech",
+                "rating": 5 
+            },
+            {
+                "name": "Indesign",
+                "type": "tech",
+                "rating": 5 
+            },
+            {
+                "name": "Excel",
+                "type": "tech",
+                "rating": 4 
+            },
+            {
+                "name": "Arduino Uno",
+                "type": "tech",
+                "rating": 4 
+            },
+            {
+                "name": "Raspberry Pi",
+                "type": "tech",
+                "rating": 4 
+            },
+            {
+                "name": "Soldering",
+                "type": "skill",
+                "rating": 5 
+            },
+            {
+                "name": "DSLR Camera",
+                "type": "skill",
+                "rating": 5 
+            },
+            {
+                "name": "LaTeX",
+                "type": "tech",
+                "rating": 2 
+            },
+            {
+                "name": "Pen Testing",
+                "type": "tech",
+                "rating": 3 
+            },
+            {
+                "name": "Computer Vision",
+                "type": "tech",
+                "rating": 4 
+            }
+        ]
     },
     "education": {
         "default": true,
@@ -239,7 +239,7 @@
     },
     "experience": {
         "default": true,
-        "role": [
+        "jobs": [
             {
                 "title": "Front-End Developer",
                 "start": "August 2019",

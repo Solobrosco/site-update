@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import stats from '../data/stats.json'
 
 interface StatsProps {
-    stats?: any
+    stats: {}
 }
 
 function startToNow (date?: any) {
@@ -15,7 +15,7 @@ function startToNow (date?: any) {
     return days;
 }
 
-const Stats = (stat?: StatsProps) => {
+const Stats = (props: StatsProps) => {
     const [count, setCount] = useState(stats.Updating.default);
     
     useState(() => {
@@ -29,13 +29,14 @@ const Stats = (stat?: StatsProps) => {
         localStorage.setItem("counter", JSON.stringify(count));
     });
 
+    console.log(props)
     
     return(
         <div className='text-center text-gruvwhite bg-gruvbg-1'>
             <div className='text-3xl font-black'>Stats</div>
             <div className='flex space-x-3 justify-center p-3'>
-                <div className='text-2xl font-bold p-5 bg-green-700 rounded'>
-                    {stats["Start to Present"].title} {startToNow(stats["Start to Present"].start)}
+                <div className='text-2xl font-bold p-5 bg-green-700 rounded'>  
+                    {props.stats["Start to Present"].title} {startToNow(stats["Start to Present"].start)}
                 </div>
                 <div className='text-2xl font-bold p-5 cursor-pointer bg-redgruv rounded' onClick={() => setCount(count + 1)}>
                     <div>
