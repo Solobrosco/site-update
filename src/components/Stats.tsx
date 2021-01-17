@@ -34,7 +34,7 @@ const Stats = (props: StatsProps) => {
     return(
         <div className='text-center text-gruvwhite bg-gruvbg-1'>
             <div className='text-3xl font-black'>Stats</div>
-            <div className='flex space-x-3 justify-center p-3'>
+            <div className='flex space-x-3 justify-center pb-3'>
                 <div className='text-2xl font-bold p-5 bg-green-700 rounded'>  
                     {props.stats["Start to Present"].title} {startToNow(stats["Start to Present"].start)}
                 </div>
