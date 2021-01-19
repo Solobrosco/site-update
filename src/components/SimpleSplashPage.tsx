@@ -1,6 +1,6 @@
 import React from 'react';
 
-import splash from '../static/Snelling.png'
+import splash from '../static/MRock.jpg'
 
 // DATA
 // import quotes from '../data/quotes.json';

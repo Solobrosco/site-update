@@ -23,7 +23,7 @@ function App() {
     <div className="justify-center items-center">
       {home.navbar && <NavBar navBar={home.navbar}/>}
       {home.splash && <SplashPage text={'Aspire to inspire before we expire.'}/>}
-      {home.simpleSplash && <SimpleSplashPage quotes={home.simpleSplash.quotes} img={false}/>}
+      {home.simpleSplash && <SimpleSplashPage quotes={home.simpleSplash.quotes} img={true}/>}
       {home.myRoom && <MyRoom />}
       {home.about && <About skills={home.about.skills}/>}
       {home.gallery && <Gallery />}
