@@ -1,0 +1,118 @@
+{
+    "Frontend": {
+        "0": {
+            "name": "HTML",
+            "type": "tech",
+            "rating": 5
+        },
+        "1": {
+            "name": "CSS",
+            "type": "tech",
+            "rating": 5
+        },
+        "2": {
+            "name": "Angular",
+            "type": "tech",
+            "rating": 3
+        },
+        "3": {
+            "name": "React",
+            "type": "tech",
+            "rating": 4
+        },
+        "4": {
+            "name": "Typescript",
+            "type": "tech",
+            "rating": 3
+        },
+        "5": {
+            "name": "JavaScript (ES6)",
+            "type": "tech",
+            "rating": 4
+        },
+        "6": {
+
+        },
+        "7": {
+
+        }
+    },
+    "Backend": {
+        "0": {
+            "name": "Python",
+            "type": "tech",
+            "rating": 5
+        },
+        "1": {
+            "name": "C++",
+            "type": "tech",
+            "rating": 4
+        },
+        "2": {
+            "name": "Java",
+            "type": "tech",
+            "rating": 3
+        },
+        "3": {
+            "name": "jQuery",
+            "type": "tech",
+            "rating": 3
+        },
+        "4": {
+            "name": "SQLite",
+            "type": "tech",
+            "rating": 3
+        },
+        "5": {
+            "name": "Swift",
+            "type": "tech",
+            "rating": 2
+        }
+    },
+    "Applications": {
+        "0": {
+            "name": "Matlab",
+            "type": "tech",
+            "rating": 3
+        },
+        "1": {
+            "name": "R",
+            "type": "tech",
+            "rating": 3
+        },
+        "2": {
+            "name": "Photoshop",
+            "type": "tech",
+            "rating": 5
+        },
+        "3": {
+            "name": "Illustrator",
+            "type": "tech",
+            "rating": 5
+        },
+        "4": {
+            "name": "After Effects",
+            "type": "tech",
+            "rating": 5
+        },
+        "5": {
+            "name": "Indesign",
+            "type": "tech",
+            "rating": 5
+        },
+        "6": {
+            "name": "Excel",
+            "type": "tech",
+            "rating": 4
+        },
+        "7": {
+
+        },
+        "8": {
+
+        }
+    },
+    "Other": {
+
+    }
+}
