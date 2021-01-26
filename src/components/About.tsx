@@ -4,7 +4,7 @@ import React from 'react';
 import SkillComp from './Skills';
 
 // STATIC
-import ProfilePicture from '../static/placeholder.png';
+import ProfilePicture from '../static/NAS.png';
 
 interface aboutProps {
     skills: {}[],
