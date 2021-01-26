@@ -98,6 +98,8 @@
     "gallery": false,
     "about": {
         "default": true,
+        "title": "Check it out!",
+        "description": "Here is a list of technologies and skills I have been working with and obtained.",
         "skills" :[
             {
                 "name": "Python",

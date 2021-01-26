@@ -4,10 +4,12 @@ import React from 'react';
 import SkillComp from './Skills';
 
 // STATIC
-import ProfilePicture from '../static/placeholder.png';
+import ProfilePicture from '../static/NAS.png';
 
 interface aboutProps {
-    skills: {}[]
+    skills: {}[],
+    title: string,
+    description: string
 }
 
 // Add more to interface
@@ -22,10 +24,10 @@ const About = (props: aboutProps) => {
                 </div>
             </div>
             <h2 className='text-4xl py-3 font-bold'>
-                Check it out!
+                {props.title}
             </h2>
             <p>
-                Here is a list of technologies and skills I have been working with and obtained.
+                {props.description}
             </p>
             <h3 className='text-3xl pt-3 pb-1 font-bold'>
                 Skills
