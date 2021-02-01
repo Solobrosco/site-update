@@ -29,7 +29,7 @@ function App() {
       {home.gallery && <Gallery />}
       {home.education && <Education school={home.education.school} major={home.education.major} time={home.education.date}/>}
       {home.experience && <Experience experience={home.experience.jobs}/>}
-      {home.downloads && <Downloads resume={home.downloads.button.resume} certificates={home.downloads.button.certificates}/>}
+      {home.downloads && <Downloads showResume={home.downloads.button.resume} showCertificates={home.downloads.button.certificates}/>}
       {home.stats && <Stats stats={home.stats.initial}/>}
       {home.footer && <Footer />}
     </div>
