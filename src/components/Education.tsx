@@ -5,7 +5,8 @@ import Seal from '../static/The_University_of_California_1868.svg';
 interface educationProps{
     school: string,
     major: string,
-    time: string
+    time: string,
+    link: string
 }
 
 const Education = (props: educationProps) => {
@@ -16,7 +17,9 @@ const Education = (props: educationProps) => {
                     Education
                 </div>
                 <div className='text-2xl hover:text-blue-800'>
-                    {props.school}
+                    <a href={props.link}>
+                        {props.school}
+                    </a>
                 </div>
                 <div className='text-xl'>
                     {props.major}
