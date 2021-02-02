@@ -27,7 +27,7 @@ function App() {
       {home.myRoom && <MyRoom />}
       {home.about && <About skills={home.about.skills} title={home.about.title} description={home.about.description}/>}
       {home.gallery && <Gallery />}
-      {home.education && <Education school={home.education.school} major={home.education.major} time={home.education.date}/>}
+      {home.education && <Education school={home.education.school} major={home.education.major} time={home.education.date} link={home.education.link}/>}
       {home.experience && <Experience experience={home.experience.jobs}/>}
       {home.downloads && <Downloads resume={home.downloads.button.resume} certificates={home.downloads.button.certificates}/>}
       {home.stats && <Stats stats={home.stats.initial}/>}

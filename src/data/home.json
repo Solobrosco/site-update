@@ -237,7 +237,8 @@
         "default": true,
         "school": "University of California, Merced",
         "major": "Computer Science and Engineering",
-        "date": "August 2016 - May 2020"
+        "date": "August 2016 - May 2020",
+        "link": "https://www.ucmerced.edu/"
     },
     "experience": {
         "default": true,
