@@ -15,7 +15,7 @@ const Education = (props: educationProps) => {
                 <div className='text-5xl font-black'>
                     Education
                 </div>
-                <div className='text-2xl'>
+                <div className='text-2xl hover:text-blue-800'>
                     {props.school}
                 </div>
                 <div className='text-xl'>
