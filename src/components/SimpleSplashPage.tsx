@@ -1,6 +1,8 @@
 import React from 'react';
 
-import splash from '../static/MRock.jpg'
+import Imgquote from './Imgquote';
+
+
 
 // DATA
 // import quotes from '../data/quotes.json';
@@ -19,13 +21,12 @@ function pickRandomQuote (quotes: {}) {
 }
 
 const SimpleSplashPage = (props: simpleSplashPageProps) =>{
-    let quote = pickRandomQuote(props.quotes);
+    let pick = pickRandomQuote(props.quotes);
+    let quote = pick.quote;
+    let author = pick.author;
     return(
-        <div className="bg-gruvbg-1 text-gruvwhite text-center" >
-            <div className='z-0'>
-                {props.img && <img src={splash} alt='splash' className='object-cover'></img>}
-            </div>
-            <div className='z-10 px-3 font-medium text-2xl'>"{quote.quote}"<br></br><span className='font-thin text-bluegruv-dark'>- {quote.author}</span></div>
+        <div className="text-gruvwhite text-center" >
+            <Imgquote img={props.img} quote={quote} author={author} />
         </div>
     );
 }
