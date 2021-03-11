@@ -19,18 +19,29 @@ import Footer from './components/Footer';
 import home from './data/home.json';
 
 function App() {
+  // This is the layout of the website
   return (
     <div className="justify-center items-center">
+      {/* NAVBAR */}
       {home.navbar && <NavBar navBar={home.navbar}/>}
+      {/* SPLASHPAGE */}
       {home.splash && <SplashPage text={'Aspire to inspire before we expire.'}/>}
       {home.simpleSplash && <SimpleSplashPage quotes={home.simpleSplash.quotes} img={true}/>}
+      {/* MYROOM */}
       {home.myRoom && <MyRoom />}
+      {/* ABOUT */}
       {home.about && <About skills={home.about.skills} title={home.about.title} description={home.about.description}/>}
+      {/* GALLERY */}
       {home.gallery && <Gallery />}
+      {/* EDUCATION */}
       {home.education && <Education school={home.education.school} major={home.education.major} time={home.education.date} link={home.education.link}/>}
+      {/* EXPERIENCE */}
       {home.experience && <Experience experience={home.experience.jobs}/>}
+      {/* DOWNLOADS */}
       {home.downloads && <Downloads resume={home.downloads.button.resume} certificates={home.downloads.button.certificates}/>}
-      {home.stats && <Stats stats={home.stats.initial}/>}
+      {/* STATS */}
+      {home.stats && <Stats stats={home.stats.initial}/>}      
+      {/* FOOTER */}
       {home.footer && <Footer imgURL={home.footer.imgURL} />}
     </div>
   );
