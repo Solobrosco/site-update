@@ -31,7 +31,7 @@ function App() {
       {home.experience && <Experience experience={home.experience.jobs}/>}
       {home.downloads && <Downloads resume={home.downloads.button.resume} certificates={home.downloads.button.certificates}/>}
       {home.stats && <Stats stats={home.stats.initial}/>}
-      {home.footer && <Footer />}
+      {home.footer && <Footer imgURL={home.footer.imgURL} />}
     </div>
   );
 }
