@@ -5,8 +5,8 @@ import pack from '../../package.json';
 const Footer = () => {
     return(
         <div className='text-center text-gruvwhite bg-gruvbg-0 p-3 flex flex-wrap justify-center space-x-3 text-xs'>
-            <div className='self-center font-bold'>
-                Created with
+            <div className='self-center text-lg font-bold bg-gruvbg-3 p-4 rounded'>
+                Created with:
             </div>
             <div className='self-end font-bold'>
                 <img height="150" width="150" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="react_logo"></img>
