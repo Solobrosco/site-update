@@ -237,7 +237,8 @@
         "default": true,
         "school": "University of California, Merced",
         "major": "Computer Science and Engineering",
-        "date": "August 2016 - May 2020"
+        "date": "August 2016 - May 2020",
+        "link": "https://www.ucmerced.edu/"
     },
     "experience": {
         "default": true,
@@ -326,5 +327,13 @@
             }
         }
     },
-    "footer": true
+    "footer": {
+        "default": true,
+        "imgURL": {
+            "react": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+            "typescript": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+            "tailwindcss": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+            "ghpages": "https://raw.githubusercontent.com/gist/johan/1007813/raw/a25829510f049194b6404a8f98d22978e8744a6f/octocat.svg"
+        }
+    }
 }

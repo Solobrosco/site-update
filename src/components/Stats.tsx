@@ -38,7 +38,7 @@ const Stats = (props: StatsProps) => {
                 <div className='text-2xl font-bold p-5 bg-green-700 rounded'>  
                     {props.stats["Start to Present"].title} {startToNow(stats["Start to Present"].start)}
                 </div>
-                <div className='text-2xl font-bold p-5 cursor-pointer bg-redgruv rounded' onClick={() => setCount(count + 1)}>
+                <div className='select-none text-2xl font-bold p-5 cursor-pointer bg-redgruv rounded' onClick={() => setCount(count + 1)}>
                     <div>
                         {stats.Updating.title} {count}
                     </div>
