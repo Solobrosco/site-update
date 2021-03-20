@@ -38,7 +38,7 @@ function App() {
       {/* EXPERIENCE */}
       {home.experience && <Experience experience={home.experience.jobs}/>}
       {/* DOWNLOADS */}
-      {home.downloads && <Downloads resume={home.downloads.button.resume} certificates={home.downloads.button.certificates}/>}
+      {home.downloads && <Downloads showResume={home.downloads.button.resume} showCertificates={home.downloads.button.certificates}/>}
       {/* STATS */}
       {home.stats && <Stats stats={home.stats.initial}/>}      
       {/* FOOTER */}
