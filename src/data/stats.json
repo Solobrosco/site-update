@@ -13,7 +13,7 @@
         "default": 0
     },
     "Amazon": {
-        "title": "Fastest Stow Rate",
+        "title": "Stow Rate",
         "rate": 418
     },
     "Instacart": {
