@@ -19,7 +19,15 @@ import Footer from './components/Footer';
 import home from './data/home.json';
 
 function App() {
+  async function getHome(){
+    const url = 'https://solobrosco.github.io/data/home.json'
+    const res = await fetch(url)
+    const data = await res.json()
+    console.log(data)
+
+  }
   // This is the layout of the website
+  // Add components when necassary 
   return (
     <div className="justify-center items-center">
       {/* NAVBAR */}
