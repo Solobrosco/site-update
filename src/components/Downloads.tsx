@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pdf from '../data/testDoc.pdf';
+import pdf from '../data/Resume.pdf';
 
 interface DownloadsProps {
     showResume?: boolean,
@@ -13,9 +13,9 @@ const Downloads = (props: DownloadsProps) => {
             {props.showResume && <a href={pdf} target='blank' className="hover:text-gruvfg-3 text-3xl bg-gruvbg-2 hover:bg-gruvbg-5 font-black p-5 border-b-4 border-gruvbg-3 hover:border-gruvbg-2 rounded">
                     Download Resume
                 </a>}
-            {props.showCertificates && <button className="text-3xl bg-gruvbg-2 hover:text-gruvfg-3 hover:bg-gruvbg-5 font-black p-5 border-b-4 border-gruvbg-3 hover:border-gruvbg-2 rounded">
+            {/* {props.showCertificates && <button className="text-3xl bg-gruvbg-2 hover:text-gruvfg-3 hover:bg-gruvbg-5 font-black p-5 border-b-4 border-gruvbg-3 hover:border-gruvbg-2 rounded">
                     View Certificates
-                </button>}
+                </button>} */}
         </div>
     );
 }
