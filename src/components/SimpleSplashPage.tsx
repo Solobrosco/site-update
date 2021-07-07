@@ -19,13 +19,22 @@ function pickRandomQuote (quotes: {}) {
 }
 
 const SimpleSplashPage = (props: simpleSplashPageProps) =>{
-    let quote = pickRandomQuote(props.quotes);
+    let pick = pickRandomQuote(props.quotes);
+    let quote = pick.quote;
+    let author = pick.author;
+    
     return(
-        <div className="bg-gruvbg-1 text-gruvwhite text-center" >
-            <div className='z-0'>
-                {props.img && <img src={splash} alt='splash' className='object-cover'></img>}
+        <div className='static'>
+            <div className="relative text-gruvwhite text-center h-5" >
+                <div className="absolute inset-0 bg-cover bg-center z-0">
+                    {props.img && <img src={splash} alt='splash' className='object-cover'></img>}
+                </div>
+                <div className='items-center inset-0 z-10 flex justify-center absolute bg-blue-900 px-3 font-bold text-4xl'>
+                    "{quote}"
+                    <br></br>
+                    <span className='font-thin text-bluegruv-dark'>- {author}</span>
+                </div>
             </div>
-            <div className='z-10 px-3 font-medium text-2xl'>"{quote.quote}"<br></br><span className='font-thin text-bluegruv-dark'>- {quote.author}</span></div>
         </div>
     );
 }
