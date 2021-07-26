@@ -1,7 +1,5 @@
 import React from 'react';
 
-import splash from '../static/MRock.jpg'
-
 // DATA
 // import quotes from '../data/quotes.json';
 // webgl background canvas
@@ -18,12 +16,33 @@ function pickRandomQuote (quotes: {}) {
     return quotes[keys[randIndex]];
 }
 
+const randomPicture = () => {
+    const path = "https://solobrosco.github.io/data/splash/"
+    const batch = [
+        "BayShore.jpg",
+        "CreekCave.jpg",
+        "LongBeach.jpg",
+        "Monterey.jpg",
+        "MussleRock_0.jpg",
+        "MussleRock_1.jpg",
+        "Nike.jpg",
+        "Pacifica_1.jpg",
+        "Pacifica.jpg",
+        "SantaCruz.jpg",
+        "Sequoia.jpg",
+        "Sequoia_1.jpg",
+        "Snelling.png",
+    ]
+    let randIndex = Math.floor(Math.random() * batch.length);
+    return path + batch[randIndex]
+}
+
 const SimpleSplashPage = (props: simpleSplashPageProps) =>{
     let quote = pickRandomQuote(props.quotes);
     return(
         <div className="bg-gruvbg-1 text-gruvwhite text-center" >
             <div className='z-0'>
-                {props.img && <img src={splash} alt='splash' className='object-cover'></img>}
+                {props.img && <img src={randomPicture()} alt='splash' className='object-cover'></img>}
             </div>
             <div className='z-10 px-3 font-medium text-2xl'>"{quote.quote}"<br></br><span className='font-thin text-bluegruv-dark'>- {quote.author}</span></div>
         </div>
