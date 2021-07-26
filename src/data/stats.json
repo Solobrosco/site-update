@@ -14,10 +14,10 @@
     },
     "Amazon": {
         "title": "Stow Rate",
-        "rate": 376
+        "rate": 418
     },
     "Instacart": {
         "title": "Instacart Rating",
-        "default": 4.67
+        "default": 4.87
     }
 }

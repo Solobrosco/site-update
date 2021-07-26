@@ -99,7 +99,7 @@
     "about": {
         "default": true,
         "title": "Check it out!",
-        "description": "Here is a list of technologies and skills I have been working with and obtained.",
+        "description": "Here is a list of technologies and skills I have been working with!",
         "skills" :[
             {
                 "name": "Python",
@@ -244,9 +244,16 @@
         "default": true,
         "jobs": [
             {
+                "title": "Part-Time Assoicate",
+                "start": "October 2020",
+                "end": "March 2021",
+                "company": "Amazon",
+                "description": "Skillfully stowed away items ."
+            },
+            {
                 "title": "Front-End Developer",
                 "start": "August 2019",
-                "end": "Present",
+                "end": "July 2020",
                 "company": "New-Edge-Developers",
                 "description": "Programs the front end environment on multiple platforms. Designs and creates the front end environment for The Basic Needs app. Reports weekly to the Lead Backend Developer and Content Manager. Collaborates with team members to further simplify interfaces."
             },
@@ -281,7 +288,7 @@
             {
                 "title": "Full-Service Shopper",
                 "start": "July 2016",
-                "end": "August 2018",
+                "end": "Present",
                 "company": "Instacart",
                 "description": "Fully services Instacart customers by shopping and delivering their groceries accurately, fresh, and on time."
             },
@@ -319,13 +326,21 @@
             },
             "Amazon": {
                 "title": "Stow Rate",
-                "rate": 376
+                "rate": 418
             },
             "Instacart": {
                 "title": "Instacart Rating",
-                "default": 4.67
+                "default": 4.97
             }
         }
     },
-    "footer": true
+    "footer": {
+        "default": true,
+        "imgURL": {
+            "react": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+            "typescript": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+            "tailwindcss": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+            "ghpages": "https://raw.githubusercontent.com/gist/johan/1007813/raw/a25829510f049194b6404a8f98d22978e8744a6f/octocat.svg"
+        }
+    }
 }
