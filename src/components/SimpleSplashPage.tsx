@@ -1,7 +1,5 @@
 import React from 'react';
 
-import splash from '../static/MRock.jpg'
-
 // DATA
 // import quotes from '../data/quotes.json';
 // webgl background canvas
@@ -18,23 +16,37 @@ function pickRandomQuote (quotes: {}) {
     return quotes[keys[randIndex]];
 }
 
+const randomPicture = () => {
+    const path = "https://solobrosco.github.io/data/splash/"
+    const batch = [
+        "BayShore.jpg",
+        "CreekCave.jpg",
+        "LongBeach.jpg",
+        "Monterey.jpg",
+        "MussleRock_0.jpg",
+        "MussleRock_1.jpg",
+        "Nike.jpg",
+        "Pacifica_1.jpg",
+        "Pacifica.jpg",
+        "SantaCruz.jpg",
+        "Sequoia.jpg",
+        "Sequoia_1.jpg",
+        // "Snelling.png",
+    ]
+    let randIndex = Math.floor(Math.random() * batch.length);
+    return path + batch[randIndex]
+}
+
 const SimpleSplashPage = (props: simpleSplashPageProps) =>{
-    let pick = pickRandomQuote(props.quotes);
-    let quote = pick.quote;
-    let author = pick.author;
-    
+    let quote = pickRandomQuote(props.quotes);
     return(
-        <div className='static'>
-            <div className="relative text-gruvwhite text-center h-5" >
-                <div className="absolute inset-0 bg-cover bg-center z-0">
-                    {props.img && <img src={splash} alt='splash' className='object-cover'></img>}
-                </div>
-                <div className='items-center inset-0 z-10 flex justify-center absolute bg-blue-900 px-3 font-bold text-4xl'>
-                    "{quote}"
-                    <br></br>
-                    <span className='font-thin text-bluegruv-dark'>- {author}</span>
-                </div>
+        <div className="relative bg-gruvbg-1 flex text-gruvwhite text-center">
+            <div className='absolute top-1/2 left-1/2 bg-gruvbg-1px-3 font-medium text-2xl'>
+                "{quote.quote}"
+                <br></br>
+                <span className='font-thin text-bluegruv-dark'>- {quote.author}</span>
             </div>
+            {props.img && <img src={randomPicture()} alt='splash' className='object-cover'></img>}
         </div>
     );
 }
