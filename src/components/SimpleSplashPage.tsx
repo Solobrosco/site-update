@@ -41,13 +41,13 @@ const randomPicture = () => {
 const SimpleSplashPage = (props: simpleSplashPageProps) =>{
     let quote = pickRandomQuote(props.quotes);
     return(
-        <div className="relative bg-gruvbg-1 flex text-gruvwhite text-center">
-            <div className='absolute top-1/2 left-1/2 bg-gruvbg-1px-3 font-medium text-2xl'>
+        <div className="bg-gruvbg-1 text-gruvwhite text-center">
+            {props.img && <img src={randomPicture()} alt='splash' className='object-cover'></img>}
+            <div className='bg-gruvbg-1px-3 font-medium text-2xl'>
                 "{quote.quote}"
                 <br></br>
                 <span className='font-thin text-bluegruv-dark'>- {quote.author}</span>
             </div>
-            {props.img && <img src={randomPicture()} alt='splash' className='object-cover'></img>}
         </div>
     );
 }
