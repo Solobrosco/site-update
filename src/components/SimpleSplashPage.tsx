@@ -33,7 +33,6 @@ const randomPicture = () => {
         "Sequoia.jpg",
         "Sequoia_1.jpg",
         // "Snelling.png",
-
     ]
     let randIndex = Math.floor(Math.random() * batch.length);
     return path + batch[randIndex]
