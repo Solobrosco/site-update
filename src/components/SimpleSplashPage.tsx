@@ -1,4 +1,5 @@
 import React from 'react';
+import CSS from 'csstype'
 
 // DATA
 // import quotes from '../data/quotes.json';
@@ -37,22 +38,30 @@ const randomPicture = () => {
         // "Snelling.png",
         "Yosemite_0.jpg",
         "Yosemite_1.jpg",
-
     ]
     let randIndex = Math.floor(Math.random() * batch.length);
     return path + batch[randIndex]
 }
 
+const styles: CSS.Properties = {
+    position: "absolute",
+    top: '50%', 
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    textShadow: '5px 3px 3px #282828'
+
+}
+
 const SimpleSplashPage = (props: simpleSplashPageProps) =>{
     let quote = pickRandomQuote(props.quotes);
     return(
-        <div className="bg-gruvbg-1 text-gruvwhite text-center">
-            {props.img && <img src={randomPicture()} alt='splash' className='object-cover'></img>}
-            <div className='bg-gruvbg-1px-3 font-medium text-2xl'>
+        <div className="relative bg-gruvbg-1 text-gruvwhite text-center">
+            <div style={styles} className='p-3 font-medium text-4xl'>
                 "{quote.quote}"
                 <br></br>
-                <span className='font-thin text-bluegruv-dark'>- {quote.author}</span>
+                <span className='text-2xl text-bluegruv-dark'>- {quote.author}</span>
             </div>
+            {props.img && <img src={randomPicture()} alt='splash' className='object-cover shadow-inner-2xl shadow-lg'></img>}
         </div>
     );
 }
