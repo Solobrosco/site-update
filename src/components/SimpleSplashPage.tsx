@@ -21,9 +21,14 @@ const randomPicture = () => {
     const path = "https://solobrosco.github.io/data/splash/"
     const batch = [
         "BayShore.jpg",
+        "Buick.jpg",
+        "Cabin.jpg",
         "Clearlake.jpg",
         "CreekCave.jpg",
+        "Fissures_0.jpg",
+        "Fissures.jpg",
         "Landsend.jpg",
+        "LoneCypress.jpg",
         "LongBeach.jpg",
         "Monterey.jpg",
         "MussleRock_0.jpg",
@@ -32,12 +37,16 @@ const randomPicture = () => {
         "Nike.jpg",
         "Pacifica_1.jpg",
         "Pacifica.jpg",
+        "Reno.jpg",
         "SantaCruz.jpg",
+        "SDome.jpg",
         "Sequoia_1.jpg",
         "Sequoia.jpg",
+        "SharkFinn.jpg",
         // "Snelling.png",
         "Yosemite_0.jpg",
         "Yosemite_1.jpg",
+        "Yosemite_2.jpg",
     ]
     let randIndex = Math.floor(Math.random() * batch.length);
     return path + batch[randIndex]
